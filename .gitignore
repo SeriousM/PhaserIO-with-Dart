@@ -1,0 +1,16 @@
+// https://www.dartlang.org/tools/private-files.html
+
+packages/
+pubspec.lock  // Except for application packages
+.project
+.buildlog
+*.js_
+*.js.deps
+*.js.map
+.project      // Eclipse
+*.iml         // IntelliJ
+*.ipr         // IntelliJ
+*.iws         // IntelliJ
+.idea/        // IntelliJ
+.DS_Store     // Mac
+*.dart.js
