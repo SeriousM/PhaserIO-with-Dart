@@ -34,9 +34,9 @@ DART <=> JS
 -----------
 
 * Accessing the global js context is possible via `js.context.*`
-* Proxy a dart function with `new js.FunctionProxy(function)` or `new js.Function.withThis(function)` where the latter must have the first variable to accept the function-context
+* Proxy a dart function with `new js.FunctionProxy(function)` or `new js.Function.withThis(function)` where the latter must have the first variable to accept the function's context
 * Creating a JS-Object in dart can be done via `new js.Proxy(js.context.ObjectName [,arguments])`
-*  Whenever an Array or Object is created that has to be passed to JS they need to be created via `js.array([...])` or `js.map({...})`
+*  Whenever an Array or Object is created that has to be passed to JS they need to be wrapped via `js.array([...])` or `js.map({...})`
 
 
   [1]: http://gametest.mobi/phaser/examples/_site/view_full.html?d=filters&f=checker+wave.js&t=checker%20wave
